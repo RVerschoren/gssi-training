@@ -1,8 +1,11 @@
 # Python's pip+venv and alternatives
 
 This exercise aims to give you hands-on experience with installing Python
-packages and contrasting some different approaches. To get started, choose a
-Python package that has at least one non-trivial dependency and ideally
+packages and contrasting some different approaches. It should take
+approximately 30 minutes to an hour to complete (potentially more when also
+conducting the benchmark exercises). To get started, choose a
+Python package that has at least one non-trivial dependency (meaning a dependency
+that is not part of the Python standard libary) and ideally
 includes some non-Python source code (which is then typically connected to the
 Python package with `cython` or `f2py`). It is recommended to choose a Python
 package related to your area of research, but if you are really lacking
@@ -34,7 +37,7 @@ cluster:
 After trying the different installation approaches, compare them with respect
 to the following characteristics:
 
-- easy of use
+- ease of use
 - time it takes to install the package
 - disk space and number of files consumed by the installation
 - reproducibility
@@ -43,3 +46,6 @@ to the following characteristics:
   package includes one) to compare runtimes for the different installations.
   Try to explain possible differences from a theoretical point of view and
   connect to what you observe in practice.
+  > **_NOTE:_** In case you chose `astropy` as the example to work with, have
+  a look at the [astropy-benchmarks](https://github.com/astropy/astropy-benchmarks)
+  repository.
