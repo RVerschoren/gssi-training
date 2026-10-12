@@ -4,7 +4,8 @@ curl -fsSL https://pixi.sh/install.sh | PIXI_NO_PATH_UPDATE=y PIXI_HOME=${prefix
 export PATH=${prefix}/bin:${PATH}
 pixi init ${prefix}/pixi_envs/myfirstenv
 cd ${prefix}/pixi_envs/myfirstenv
-pixi add tblite-python==0.4.0
+# Choosing 0.7.0 as 0.4.0 will not work due to shared library versioning issues
+pixi add tblite-python==0.7.0
 pixi list
 cat pixi.toml
 pixi run tblite --version
