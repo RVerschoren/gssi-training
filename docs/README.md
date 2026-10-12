@@ -86,6 +86,7 @@ VSC support staff will be around to answer questions and provide hands-on help t
 The following links provide instructions for the exercises related to each tool
 discussed in the training:
 
+- [Conda / Mamba / Pixi](exercises/conda_mamba_pixi)
 - [Python + pip + venv + uv](exercises/python)
 - [Building Apptainer containers](exercises/containers)
 
