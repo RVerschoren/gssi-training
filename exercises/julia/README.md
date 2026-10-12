@@ -19,11 +19,10 @@ cluster:
 - using centrally installed Julia packages from software modules
   (use `module spider` to find them; note that these packages are usable in
   Julia but are not part of your own project environment)
-- using `Pkg.add()` in the shared environment of your personal depot
-  (by default `~/.julia`; consider moving the depot to `$VSC_DATA` to avoid
-  filling up the quota of your home directory)
 - using a Julia project environment (`Pkg.activate()` + `Pkg.add()`, which
   creates a `Project.toml` and `Manifest.toml` in your project directory)
+  (_note_: by default `~/.julia`; consider moving the depot to `$VSC_DATA` to avoid
+  filling up the quota of your home directory)
 - using a Julia project environment on top of a software module, inheriting
   the packages already provided by that module (see the "Julia environment on
   top of software module" section in the
