@@ -1,3 +1,4 @@
+trap 'echo -e "\n\033[33m\$ ${BASH_COMMAND}\n\033[0m"' DEBUG
 prefix=${BASEDIR}/pixi
 curl -fsSL https://pixi.sh/install.sh | PIXI_NO_PATH_UPDATE=y PIXI_HOME=${prefix} sh
 export PATH=${prefix}/bin:${PATH}

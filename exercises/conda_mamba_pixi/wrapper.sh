@@ -26,11 +26,7 @@ fi
 
 # Print each line in color and then execute it
 echo -e "\nLaunching ${directory}/install.sh"
-while read -r line; do
-  printf "\n\n"
-  echo -e "\033[33m\$ ${line}\n\033[0m"
-  eval "${line}"
-done < ${directory}/install.sh
+bash ${directory}/install.sh
 
 echo -e "\nLaunching ${directory}/run.sh"
 bash ${directory}/run.sh ../demoscripts/tblite-single-point-GFN2-xTB.py

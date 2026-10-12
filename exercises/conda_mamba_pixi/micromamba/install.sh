@@ -1,3 +1,4 @@
+trap 'echo -e "\n\033[33m\$ ${BASH_COMMAND}\n\033[0m"' DEBUG
 prefix=${BASEDIR}/micromamba
 mkdir -p ${prefix}
 curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -C ${prefix} -xvj bin/micromamba
