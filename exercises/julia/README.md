@@ -7,7 +7,7 @@ conducting the benchmark exercises). To get started, choose a Julia package
 with a non-trivial dependency tree. It is recommended to choose a Julia
 package related to your area of research, but if you are really lacking
 inspiration, you can complete this exercise using the
-[TightBindingToolkit](https://github.com/jdheather/TightBindingToolkit.jl) package.
+[TightBindingToolkit](https://github.com/Toronto-Condensed-Matter-Theory/TightBindingToolkit.jl/) package.
 
 You can find the relevant documentation in the "R and Julia" section of the
 [GSSI training material](https://vscentrum.github.io/gssi-training) and in the
