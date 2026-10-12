@@ -29,7 +29,7 @@ cluster:
   the command line (see
   [vsc-Rproject in the VSC Docs](https://docs.vscentrum.be/compute/software/installing_software/vsc_rproject.html))
 - using a Conda-based environment with R (see
-  [conda-based environment managers on VSCDocs](https://docs.vscentrum.be/compute/software/installing_software/conda_based_managers.html))
+  [conda-based environment managers in the VSC Docs](https://docs.vscentrum.be/compute/software/installing_software/conda_based_managers.html))
 - using an Apptainer container (see the
   [building containers exercise](../containers))
 
