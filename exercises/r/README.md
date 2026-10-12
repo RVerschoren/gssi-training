@@ -27,7 +27,7 @@ cluster:
   `devtools::install_github()`, or `R CMD INSTALL` from a source tarball
 - using `vsc-rproject`, the tool to create and manage RStudio Projects from
   the command line (see
-  [vsc-Rproject on VSCDocs](https://docs.vscentrum.be/compute/software/installing_software/vsc_rproject.html))
+  [vsc-Rproject in the VSC Docs](https://docs.vscentrum.be/compute/software/installing_software/vsc_rproject.html))
 - using a Conda-based environment with R (see
   [conda-based environment managers on VSCDocs](https://docs.vscentrum.be/compute/software/installing_software/conda_based_managers.html))
 - using an Apptainer container (see the
