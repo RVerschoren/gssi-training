@@ -87,6 +87,7 @@ The following links provide instructions for the exercises related to each tool
 discussed in the training:
 
 - [Python + pip + venv + uv](exercises/python)
+- [Conda / Mamba / Pixi](exercises/conda_mamba_pixi)
 - [Installing R packages](exercises/r)
 - [Installing Julia packages](exercises/julia)
 
