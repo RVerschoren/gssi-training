@@ -23,9 +23,7 @@ bash wrapper.sh miniforge
 Note that the wrapper script:
 
 - removes the `~/.conda` directory (contains some cached settings)
-- (over)writes the `~/.condarc` file
-
-So consider backing up your `~/.condarc` if necessary (or modify `wrapper.sh`).
+- temporarily overwrites your `~/.condarc` file
 
 ## Other packages
 

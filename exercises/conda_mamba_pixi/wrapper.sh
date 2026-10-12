@@ -4,7 +4,10 @@ rm -rf ${BASEDIR}
 mkdir -p ${BASEDIR}
 
 rm -rf ~/.conda
-cat <<-EOF > ~/.condarc
+tmpfile=$(mktemp)
+suffix=.bak
+condarc=~/.condarc
+cat <<-EOF > ${tmpfile}
 channels:
   - conda-forge
 envs_dirs:
@@ -12,6 +15,7 @@ envs_dirs:
 pkgs_dirs:
   - ${BASEDIR}/conda_pkgs
 EOF
+mv ${tmpfile} ${condarc} --backup --suffix=${suffix}
 
 directory=$1
 
@@ -29,3 +33,5 @@ done < ${directory}/install.sh
 
 echo -e "\nLaunching ${directory}/run.sh"
 bash ${directory}/run.sh ../demoscripts/tblite-single-point-GFN2-xTB.py
+
+mv ${condarc}${suffix} ${condarc}
