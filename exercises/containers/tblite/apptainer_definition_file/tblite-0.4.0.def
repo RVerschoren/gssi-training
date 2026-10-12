@@ -13,6 +13,7 @@ From: ubuntu:24.04
 %environment
 export PATH="{{ conda_base }}/bin:$PATH"
 
+# %post modifies container image at build time
 %post
 echo "--- Updating and upgrading Ubuntu ---"
 apt-get update && apt-get upgrade -y

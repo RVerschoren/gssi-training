@@ -11,5 +11,5 @@ Script to build and test the tblite container with hpc-container-wrapper and the
 * `run.sh`
 
 Script to run the tblite container with any given input file
-e.g. `exercises/containers/tblite/demoscripts/tblite-single-point-GFN2-xTB.py`
+e.g. `exercises/demoscripts/tblite-single-point-GFN2-xTB.py`
 
