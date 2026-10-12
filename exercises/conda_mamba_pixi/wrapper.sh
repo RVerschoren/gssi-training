@@ -14,6 +14,7 @@ envs_dirs:
   - ${BASEDIR}/conda_envs
 pkgs_dirs:
   - ${BASEDIR}/conda_pkgs
+env_prompt: '({name}) '
 EOF
 mv ${tmpfile} ${condarc} --backup --suffix=${suffix}
 

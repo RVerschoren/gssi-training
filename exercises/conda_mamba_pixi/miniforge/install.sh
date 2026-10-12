@@ -1,8 +1,9 @@
 module load Miniforge3/25.3.0-3
+source $(conda info --base)/etc/profile.d/conda.sh
 cat ~/.condarc
 conda info
 conda create -n myfirstenv -y
-source activate myfirstenv
+conda activate myfirstenv
 conda env list
 conda search tblite-python
 conda install tblite-python==0.4.0 -y
