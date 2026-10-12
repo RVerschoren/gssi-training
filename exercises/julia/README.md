@@ -27,7 +27,7 @@ cluster:
 - using a Julia project environment on top of a software module, inheriting
   the packages already provided by that module (see the "Julia environment on
   top of software module" section in the
-  [Julia package management section on VSCDocs](https://docs.vscentrum.be/compute/software/installing_software/julia.html))
+  [Julia package management section in the VSC Docs](https://docs.vscentrum.be/compute/software/installing_software/julia.html))
 - using an Apptainer container (see the
   [building containers exercise](../containers))
 
