@@ -34,7 +34,7 @@ cluster:
   [building containers exercise](../containers))
 
 > **_NOTE:_** Make sure to keep the different installations separated, mixing
-> approaches will likely cause problems
+> approaches will likely cause problems.
 
 After trying the different installation approaches, compare them with respect
 to the following characteristics:
