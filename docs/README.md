@@ -88,6 +88,8 @@ discussed in the training:
 
 - [Conda / Mamba / Pixi](exercises/conda_mamba_pixi)
 - [Python + pip + venv + uv](exercises/python)
+- [Installing R packages](exercises/r)
+- [Installing Julia packages](exercises/julia)
 - [Building Apptainer containers](exercises/containers)
 
 You can also access the exercise material directly in the GitHub repository at
