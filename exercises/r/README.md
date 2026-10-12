@@ -12,7 +12,7 @@ you can complete this exercise using the
 
 You can find the relevant documentation in the "R and Julia" section of the
 [GSSI training material](https://vscentrum.github.io/gssi-training) and in the
-[R package management section on VSCDocs](https://docs.vscentrum.be/compute/software/installing_software/r_package_management.html).
+[R package management section in the VSC Docs](https://docs.vscentrum.be/compute/software/installing_software/r_package_management.html).
 
 Here are the different methods you can use to install R packages on a VSC
 cluster:
